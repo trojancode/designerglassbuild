@@ -75,7 +75,7 @@ app.use('/*',express.static("build_out2"));
 // app.set('view engine', 'ejs');
 
 
-const port = process.env.PORT || 8000;
+const port = process.env.PORT || 8080;
 
 app.listen(port, () => {
     console.log(`server runnig on por:${port}`);
